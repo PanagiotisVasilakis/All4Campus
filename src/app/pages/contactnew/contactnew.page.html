@@ -1,0 +1,42 @@
+
+<ion-content>
+  
+</ion-content>
+
+
+<ion-header>
+  <ion-toolbar color='warning'>
+    <ion-title>Report</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-item>
+  <ion-label position="stacked">Please let us know</ion-label>
+  <ion-textarea disabled rows="3" readonly value="In this section we would like you to describe the problem you faced with all4campus.">
+  </ion-textarea>
+</ion-item>
+
+<!-- To add a proper message later -->
+<!-- <div *ngIf="message" class="success">{{message}}</div> -->
+
+
+<!-- <ion-item>
+  <ion-label position="floating" color="black">Your Name</ion-label>
+  <ion-textarea name="name" [(ngModel)]="Name"></ion-textarea>
+</ion-item> -->
+
+<ion-item>
+  <ion-label position="floating" color="black">Place</ion-label>
+  <ion-textarea name="place" [(ngModel)]="place"></ion-textarea>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating" color =
+  "black">What is the issue?</ion-label>
+  <ion-textarea rows="10" name="report" [(ngModel)]="Report"  placeholder="Describe your problem..."></ion-textarea>
+</ion-item>
+<ion-button color="warning" shape="block" (click)="sendReport()">Submit your Report</ion-button>

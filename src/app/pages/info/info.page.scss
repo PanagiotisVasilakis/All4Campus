@@ -1,0 +1,56 @@
+
+ion-content {
+    --background: url('/assets/images/logo4.png') no-repeat center center fixed ;
+
+    padding:150px 80px;
+    display:flex;
+    background-color: rgb(212, 209, 196);
+    
+
+h2{
+    font-size:13px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:bisque;
+    
+    
+
+
+}
+h3{
+    font-size:15px;
+}
+.available{
+    background-color: green;
+    color:white;
+    font-size:12px;
+
+}
+.currently{
+    background-color: orange;
+    color:white;
+    font-size:12px;
+
+}
+.non-available{
+    background-color:red;;
+    color:white;
+    font-size:12px;
+
+}
+ion-label{
+    p,h3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size:25px;
+    color: bisque;
+   
+
+    }}
+    ion-title{
+      position:center;
+    }
+
+
+}

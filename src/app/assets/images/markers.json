@@ -1,0 +1,46 @@
+{
+    "markers": [
+        {
+            "title": "Ramp1",
+            "isFree": true,
+            "time":"01-01-2021 23:45:00",
+            "longitude": 38.690014, 
+            "latitude": 21.487147
+        },
+        {
+            "title": "Ramp2",
+            "isFree": false,
+            "time":"02-01-2021 23:45:00",
+            "longitude": 36.290014, 
+            "latitude": 22.787147
+        },
+        {
+            "title": "Ramp3",
+            "isFree": true,
+            "time":"03-01-2021 23:45:00",
+            "longitude": 38.290014, 
+            "latitude": 21.787147
+        },
+        {
+            "title": "Elevator1",
+            "isFree": false,
+            "time":"04-01-2021 23:45:00",
+            "longitude": 38.390014, 
+            "latitude": 21.887147
+        },
+        {
+            "title": "Elevator2",
+            "isFree": true,
+            "time":"05-01-2021 23:45:00",
+            "longitude": 38.490014, 
+            "latitude": 21.487147
+        },
+        {
+            "title": "Elevator3",
+            "isFree": false,
+            "time":"07-01-2021 23:45:00",
+            "longitude": 38.690014, 
+            "latitude": 21.287147
+        }
+    ]
+}

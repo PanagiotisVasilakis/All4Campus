@@ -1,0 +1,10 @@
+{
+  "name": "All4Campus2",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

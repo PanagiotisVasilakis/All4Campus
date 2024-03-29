@@ -1,0 +1,22 @@
+//markers for the sensors test
+{
+    "markers": [
+        {
+            "_id": "Ramp1",
+            "longitude": 38.690014, 
+            "latitude": 21.487147,
+            "status": "0",
+            "time":"01-01-2021 23:45:00"
+            
+        },
+        {
+            "_id": "Ramp1",
+            "longitude": 38.690014, 
+            "latitude": 21.487147,
+            "status": "1",
+            "time":"01-01-2021 23:45:00"
+            
+        }
+       
+    ]
+}
